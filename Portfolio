@@ -1,0 +1,85 @@
+<!-- CSS Stylesheets with Relative Paths -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets.css">
+
+
+
+</head>
+
+<div id = "container">
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Mark's Profile Page</a>
+            <div class="col-xs-9 col-md-7"></div>
+        <div class="col-xs-3 col-md-5"></div>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Bio</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+  <header>
+      <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-2">
+    <h1>Student Bio</h1>
+    </div>
+  </header>
+
+  <!doctype html>
+<html lang="en-us">
+    <div class="row">
+        <div class="col-xs-9 col-md-7"></div>
+        <div class="col-xs-3 col-md-5"></div>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Mark's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+</div>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+        <div class="col-xs-9 col-md-7"></div>
+        <div class="col-xs-3 col-md-5"></div>
+      <a href="index.html" id="logo">Mark Morales</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+      <div class="col-xs-9 col-md-7"></div>
+      <div class="col-xs-3 col-md-5"></div>
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
